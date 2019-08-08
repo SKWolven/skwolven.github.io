@@ -1,0 +1,143 @@
+
+#no-header{
+	min-height: calc(100vh - 165px);
+}
+
+#hero{
+	background: 
+		linear-gradient(rgba(0, 0, 50, 0.6), rgba(0, 0, 50, 0.6)),
+		url(kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg); 
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+    color: white;
+    max-height: 700px;
+}
+
+
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 20%;
+}
+
+
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h3{
+	font-weight: 300;
+	font-style: italic;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navbar{
+	width: 100%;
+	min-height: 70px;
+	color: white;
+}
+
+
+
+.navbar-brand{
+    padding-left: 10px;
+    color: white;
+
+}   
+
+#section2{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.card{
+	border: solid rgba(0,0,150,0.2);
+	height: 200px;
+	margin-bottom: 20px;
+	padding-top:10px;
+
+}
+#icon{
+	font-size: 5em;
+	margin-top: auto;
+}
+
+
+
+a {
+	color: rgba(0,20,100,.6);
+}
+
+a:hover{
+	color:rgba(0,20,100,.8);
+}
+
+#footer{
+	min-height: 120px;
+	background-color: rgba(0,0,10,.9);
+	text-align: center;
+	padding-top: 20px;
+
+	
+}
+a.footer-link {
+	color: white;
+	text-decoration: none;
+}
+
+a.footer-link:hover{
+	color: rgba(100,100,100,.5);
+	text-decoration: none;
+}
+
+.footer-link{
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+
+#legal{
+	
+	padding-top: 50px;
+	padding-bottom: 10px;
+	color: rgba(255,255,255,.5);
+	text-align: center;
+	font-size: small;
+}
+
+h2{
+	text-align: center;
+	
+}
+
+
+#contact{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+img{
+	max-width:50%;
+	height: auto;
+}
+
+a.body-link{
+	color: black;
+	text-decoration: none;
+}
+
+a.body-link:hover{
+	color: rgba(0,0,50,.7);
+	text-decoration: none;
+}
