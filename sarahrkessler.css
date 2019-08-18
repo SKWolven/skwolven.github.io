@@ -72,8 +72,13 @@ hr{
 	margin-top: auto;
 }
 
-p {
-	padding-top: 20px;
+.intro {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.tab-content{
+	padding-top: 1em;
 }
 
 a {
@@ -143,6 +148,7 @@ a.body-link:hover{
 
 #page-body{
 	text-align:center;
+	padding-bottom: 1em;
 }
 
 .tab-content{
