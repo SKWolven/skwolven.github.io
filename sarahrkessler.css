@@ -60,6 +60,7 @@ h3{
 	background-position: bottom center;
 	background-origin: border-box;
     height: 95vh;
+	min-height: 400px;
 }
 #hero2{
 	background: 
@@ -69,6 +70,7 @@ h3{
 	background-position: bottom center;
 	background-origin: border-box;
     height: 70vh;
+	min-height: 400px;
     text-align: center;
 }
 
