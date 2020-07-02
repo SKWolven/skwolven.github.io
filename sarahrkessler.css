@@ -111,6 +111,15 @@ h3{
     text-align: center;
 }
 
+#oops{
+	background: 
+		url(images/eyes.jpg); 
+	background-size: cover;
+    height: 100vh;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+}
 
 .divider {
 	border: 0;
@@ -137,6 +146,17 @@ a {
 a:hover{
 	color: #0F69A2;
 	text-decoration: none;
+}
+
+a.woops:hover{
+	color: #0089DF;
+}
+a.woops{
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-top: 100px;
+	font-style:bold;
+	color:white;
 }
 
 #footer{
