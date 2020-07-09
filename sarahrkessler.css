@@ -91,7 +91,8 @@ h3{
 }
 
 .subheading{
-	font-size:1.2rem;
+	font-size:1.5rem;
+	padding-bottom: 20px;
 }
 
 #market{
@@ -104,7 +105,7 @@ h3{
 		linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.9)),
 		url(images/studies/teamwork.jpg); 
 	background-size: cover;
-	background-position: bottom center;
+	background-position: top center;
 	background-origin: border-box;
     height: 70vh;
     min-height: 400px;
