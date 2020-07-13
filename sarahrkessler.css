@@ -46,7 +46,6 @@ h2{
 	font-size: 2rem;
 	padding-top:50px;
 	font-weight:700;
-	
 }
 @media only screen and (max-width: 1020px){
 	h2{
@@ -83,11 +82,25 @@ h3{
 	text-align: center;
 }
 
+.reviews{
+	border-bottom-style: solid;
+	border-bottom-color: #DCDCDC;
+	margin-bottom:20px;
+}
+
 .star{
-	display: block;
-	max-width:130px;
-	padding-top: 0;
-	margin: auto;
+	display: inline;
+	max-width:60px;
+
+}
+
+.country{
+	color: #696969;
+
+}
+
+.bold{
+	font-weight: bold;
 }
 
 .subheading{
@@ -108,7 +121,7 @@ h3{
 	background-position: top center;
 	background-origin: border-box;
     height: 70vh;
-    min-height: 400px;
+    min-height: 500px;
     text-align: center;
     color: white;
 }
@@ -419,4 +432,3 @@ img{
  
 		content: attr(title);
 	}
-
