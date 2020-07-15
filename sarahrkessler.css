@@ -70,6 +70,17 @@ h3{
 	}
 }
 
+@media screen and (min-width:800px) {
+    #hidden_desktop {
+        display:none;
+    }
+}
+@media screen and (max-width:799px) {
+    #hidden_mobile {
+        display:none;
+    }
+}
+
 #vcent{
 	display: inline-block;
 }
