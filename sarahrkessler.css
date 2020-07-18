@@ -70,12 +70,12 @@ h3{
 	}
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:799px) {
     #hidden_desktop {
         display:none;
     }
 }
-@media screen and (max-width:799px) {
+@media screen and (max-width:800px) {
     #hidden_mobile {
         display:none;
     }
@@ -289,7 +289,7 @@ img{
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 }
 
 
@@ -305,6 +305,8 @@ img{
   margin: auto;
   display: block;
   border: 0;
+  max-width: 1000px;
+
   }
 
  .modal-content2, #caption {  
