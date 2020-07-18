@@ -66,7 +66,7 @@
 
 <!--THE RESEARCH-->
     <h2>THE RESEARCH</h2>
-     <p>By interviewing a number of users and observing them as they attempted to navigate the platform I identified several major pain points:<br>
+     <p>I began by interviewing a number of users and observing them as they attempted to navigate the platform. Using my colleagues as inspiration I created user personas and journey maps to identify several major pain points:<br>
     <ul>
       <li>The language feels robotic and is often difficult to understand.</li>
       <li>The menus have too many options making them difficult to navigate.</li>
@@ -74,12 +74,31 @@
       <li>Superfluous information is presented up front.</li>
       <li>The timecards are troublesome to use. User error was extremely common as a result. </li>
     </ul>
-   <p>I compared the platform to other PEOs (Professional Employer Organization) that I've had experience with - Zenefits, Insperity, and Justworks. These competitors were able to meet all of the same legal standards without sacrificing their UX/UI.</p><br>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="myImg2" src="images/studies/adppersona.jpg" alt="User persona for Alice, Digital Producer. I am: 1.Very comfortable using digital tools and navigating the internet 2.Juggling a lot of tasks and responsibilities at a small digital media startup 3.Just starting out in my career
+        I hear: 1.The HR manager says I can do everything on the ADP website or via the mobile app 2.My coworkers are complaining because they are having trouble using the website
+        I see: I mostly work with other young, tech savvy people 2.A lot of people are giving up on the website and calling ADP directly to get answers
+        I say: If my coworkers are having this much trouble, I don't know if I'll be able to use the website 2.Can it really be that difficult? I'll give it a try
+        I'm frustrated because: 1.I'm already so busy with work, I don't have a lot of time to spend on managing all of this 2.I hate talking on the phone
+        I'll be able to: 1.Fill out my timecard so that I can get paid correctly 2.Request time off so that I can take a vacation 3.Manage my 401K so that I can plan for my future">
+        <p class="caption">user persona</p>
+      </div>
+      <div class="col-lg-6">    
+        <img class="myImg2" src="images/studies/adpjourneymap.jpg">
+        <p class="caption">user journey map for Alice attempting to manage her 401K contributions via the ADP website</p>
+      </div>
+    </div>
+    <p>I learned that many users were abandoning the online platform in favor of asking the HR manager (me) what to do. If that failed, they called ADP for help.</p>
+    <p>I compared the platform to other PEOs (Professional Employer Organization) that I've had experience with - Zenefits, Insperity, and Justworks. These competitors were able to meet all of the same legal standards without sacrificing their UX/UI.</p><br>
+
 
 <!--THE STRUCTURE-->
       <h2>THE STRUCTURE</h2>
       <p>All of the pain points essentially boiled down to having too much on the site. ADP records an enormous amount of information for every employee and has a complex coding system for managing their data. Hardly any of that data or those codes are useful to individual employees, so <span class="pull2" title="my first task was to figure out what could go and what needed to stay"></span> my first task was to figure out what could go and what needed to stay.</p>
-      <p>I made a list of the features and information available on the platform. I compared my list with what was available through other platforms and then  organized the list items based on level of importance to the user. Tier 1 items - pay information, time keeping, and benefits - would have to be among the first things a user sees upon accessing the site. Tier 2 items like personal information, compliance training, and support would also need to be easily accessible, but could be lower down on the page than tier 1 items. Tier 3 items like company policies and account settings could be accessed via menus. Everything else could be removed from the front end.</p><br>
+      <p>I made a list of the features and information available on the platform. I compared my list with what was available through other platforms and then did a card sorting exercise to organize the list items based on level of importance to the user. Tier 1 items - pay information, time keeping, and benefits - would have to be among the first things a user sees upon accessing the site. Tier 2 items like personal information, compliance training, and support could be lower down or accessed via menus. Tier 3 items like company policies and account settings could be accessed entirely via menus. Everything else could be removed from the front end.</p>
+      <img src="images/studies/adpcardsort.jpg">
+      <p class="caption">card sorting exercise created with <a href="https://www.whimsical.com">Whimsical</a></p><br>
 
 <!--THE VOICE-->
       <h2>THE VOICE</h2>
@@ -87,24 +106,24 @@
       <p>The voice is that of a human resources expert. It is clear, concise, consistent, inclusive, and professional. Wherever inclusivity is not feasable due to legal requirements, alternatives must be provided (eg. legal name AND preferred name). The tone may change depending on context, but should be conversational and friendly without being overly familiar. It should never be aggressive, accusatory, or joking.</p><br>
       <div class="row">
         <div class="col-lg-6">
-          <img class="myImg2" src="images/studies/taxerrorREAL.jpg">
+          <img src="images/studies/taxerrorREAL.jpg">
           <p class="caption">ADP error message</p>
         </div>
         <div class="col-lg-6">
-          <img class="myImg2" src="images/studies/taxerrorMOCK.jpg">
+          <img src="images/studies/taxerrorMOCK.jpg">
           <p class="caption">rewritten error message</p>
         </div>
       </div>
       <p>This error message was displayed when I tried to update my tax withholdings before ADP had set up that feature for my account. My rewritten version of the error message advises to try again later and also provides contact information for further assistance.</p><br>
-      <img class="myImg2" src="images/studies/oopsREAL.jpg">
+      <img src="images/studies/oopsREAL.jpg">
         <p class="caption">ADP error message</p><br>
-      <img class="myImg2" src="images/studies/oopsMOCK.jpg">
+      <img  src="images/studies/oopsMOCK.jpg">
         <p class="caption">rewritten error message</p><br>
       <p>A colleague encountered this error during the benefits enrollment process. He had followed directions correctly and was still getting this message. Not only was he frustrated that the error kept popping up, but the copy was bordering on insulting. The 'Oops!' at the beginning is meant to be lighthearted, but it is tonally inconsistent with the rest of the product and implies that the user has done something wrong. My rewritten message does not blame the user, but does provide solutions.</p><br>
       <span id="vcent">
       <div id="vcent2" class="row">
         <div id="vcent3"class="col-md-6">
-          <img class="myImg2" src="images/studies/confusing1.jpg">
+          <img src="images/studies/confusing1.jpg">
           <p class="caption">ADP notification upon termination of an employee</p>
         </div>
         <div class="col-md-6">
@@ -114,7 +133,7 @@
       <br>
       <div id="vcent2" class="row">
         <div id="vcent3" class="col-lg-8">
-           <img class="myImg2" src="images/studies/confusing2.jpg">
+           <img src="images/studies/confusing2.jpg">
            <p class="caption">ADP account settings</p>
         </div>
         <div class="col-lg-4">
