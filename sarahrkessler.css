@@ -145,15 +145,12 @@ hr{
 }
 
 #oops{
-	background: 
-	linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(images/eyes.jpg); 
-	background-size: cover;
-	background-position: top center;
     text-align: center;
     text-align: center;
-    color: white;
     height: 70vh;
     min-height: 700px;
+    font-weight:700;
+    margin-top: 5rem;
 }
 
 .divider {
@@ -212,6 +209,16 @@ a.woops{
 	font-weight: 400;
 	color: #afd1d3;
 
+}
+
+.btn-custom{
+	background-color: #afd1d3;
+	color: #545454;
+}
+
+a.btn-custom:hover{
+	color:black;
+	background-color: #64b6bb;
 }
 
 #footer{
