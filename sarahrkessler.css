@@ -22,6 +22,8 @@ body{
 }*/
 
 
+
+
 #scrollup {
   display: none;
   position: fixed;
@@ -166,6 +168,16 @@ hr{
 	background:
 	linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
 	url(images/localize/parkslope2.jpeg);
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#hero3{
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+	url(images/home2bg.jpeg);
 	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
