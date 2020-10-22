@@ -67,22 +67,25 @@
 <!--Case study begins-->
   <h2>PROJECT OVERVIEW</h2>
   <p><a href="https://localize.city" target="_blank">Localize.city</a> is the US branch of Madlan, an Israeli AI-led company that provides insights about real estate and neighborhoods. I worked on a team to complete an extensive research and content audit project for Localize.city as part of the <a href="https://uxwritinghub.com/" target="_blank">UX Writing Academy by UX Writing Hub</a>.</p>
+    <p>Localize.city's staff UX writer asked us to focus on the experience of home-buyers, and work toward an overall goal of increasing user signups.</p>
       <img class="center-image" src="images/localize/localize.jpg" alt="mockup of localize.city homepage on laptop and mobile">
-      <p>Over the course of four weeks I worked on the following areas:</p>
-        <ul>
-          <li><a href="#competitors">Competitor analysis</a></li>
-          <li><a href="#conversationmining">Conversation mining</a></li>
-          <li><a href="#audit">Content audit</a></li>
-            <ul>
-              <li><a href="#onboarding">Rewriting the onboarding flow</a></li>
-              <li><a href="#abtest">Options for A/B testing</a></li>
-            </ul>
-        </ul>
-  <p>Localize.city's staff UX writer asked us to focus on the experience of home-buyers, and work toward an overall goal of increasing user signups.</p>
- 
+    <a id="tabs"></a>
+  <p style="text-align: center; padding-top: 50px;"><strong>Select a tab to toggle between the research and audit sections.</strong></p>
+
+<!--THE TABS-->
+<nav style="padding-top: 20px;">
+    <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-research-tab" data-toggle="tab" href="#nav-research" role="tab" aria-controls="nav-research" aria-selected="true">THE RESEARCH</a>
+      <a class="nav-item nav-link" id="nav-audit-tab" data-toggle="tab" href="#nav-audit" role="tab" aria-controls="nav-audit" aria-selected="false">CONTENT AUDIT</a>
+    </div>
+</nav>
+  
+
+<!--RESEARCH SECTION-->
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-research" role="tabpanel" aria-labelledby="nav-research-tab">
 
  <!--COMPETITOR ANALYSIS-->
- <a id="competitors">
   <h2>COMPETITOR ANALYSIS</h2>
   <p>I took the lead on our competitor analysis. I created an airtable to track our findings and with the help of two teammates I analyzed experiences across four major competitors.</p>
   <div class="container">
@@ -105,7 +108,7 @@
         </ul>
       </div>
     </div>
-    <img src="images/localize/localize-competitors.jpg" alt="An excerpt of the competitory anaylis airtable showing 404 pages and onboarding flows">
+    <iframe class="airtable-embed" src="https://airtable.com/embed/shrpQ5XWbSkWuhizA?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
     <p class="caption">Competitor anaylsis airtable</p>
     <p class="strong">Competitor trends summary</p>
     <div class="container">
@@ -147,15 +150,14 @@
         <li>Zillow, Trulia, and Redfin have a national audience. Only StreetEasy has a narrower focus on NY and NJ. StreetEasy provides some limited local insights mostly related to public transit. <strong>Localize.city can stand out as a hyper-local real estate advisor that operates from the renter/buyer perspective.</strong></li>
       </ul>
     </div>
-  </div>
+
 
 <!--CONVERSATION MINING-->
-<a id="conversationmining">
   <h2>CONVERSATION MINING</h2>
   <p>Two teammates and I explored different spaces online and transcripts of user interviews to become familiar with the conversations users are having about real estate sites and the home buying process.
   We used airtable to organize our findings.</p>
-  <img src="images/localize/conversationmining.jpg" alt="except of airtable showing conversations mined from user reviews on various platforms">
-  <p class="caption">Exerpt of conversation mining airtable</p>
+  <iframe class="airtable-embed" src="https://airtable.com/embed/shrSyyxZB2KtMhN9P?backgroundColor=teal&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+  <p class="caption">Conversation mining airtable</p>
   <p class="strong">Insights</p>
   <ul>
     <li>Users are looking for up-to-date and trustworthy information, tailored to their needs. They want to know things that agents can’t or won’t tell them.</li>
@@ -163,9 +165,12 @@
     <li>The main pain points we identified were being unsure of the site’s credibility, hidden drawbacks associated with properties, and concerns about safety and security.</li>
     <li>Users can get very emotional talking about their homes. It’s something that touches them personally. This should be considered in the voice & tone guide.</li>
   </ul>
+</div>
+Check out the <a href="#tabs">content audit</a> to see more of my UX writing and copy testing work.
+</div>
 
+<div class="tab-pane fade" id="nav-audit" role="tabpanel" aria-labelledby="nav-audit-tab">
  <!--CONTENT AUDIT--> 
-<a id="audit">
   <h2>CONTENT AUDIT</h2>
   <p>Five of us worked on an audit of Localize.city's content with a focus on the buyer's experience. My major contribution was in the mobile onboarding flow.</p>
   <p>First, I mapped out the primary user journey:</p>
@@ -212,9 +217,9 @@
         <p class="caption">Screen 3</p>
       </div>
       <div class="col-lg-4">
-        <p><strong>Features:</strong> I added a progress tracker so the user will know how much longer the flow will take.</p>
+        <p><strong>Features:</strong> I added a progress tracker to every step so the user will know how much longer the flow will take.</p>
         <p><strong>Heading:</strong> The revised message makes it clear that more than one neighborhood can be selected.</p>
-        <p><strong>CTA:</strong> I added a secondary CTA "Skip" so that users know they can move on without selecting a neighborhood.</p>
+        <p><strong>CTA:</strong> I included a secondary CTA "Skip" so that users know they can move on without selecting a neighborhood. I added this to all the steps except the last one.</p>
       </div>
     </div>
       <div id="vcent2" class="row section">
@@ -233,6 +238,7 @@
           <p class="caption">Screen 5</p>
         </div>
         <div class="col-lg-4">
+          <p><strong>Heading:</strong> The original heading asks the user what they are interested in. A user may not feel like they're <i>interested</i> in any of these options. I've reframed these as "special requests" which is more in line with how users are likely to feel about this step.</p>
           <p><strong>Microcopy:</strong> I expanded the micrccopy here to better convey the value in making selections in this step.</p>
           <p>"Don't worry" is a phrase I typically avoid. Users don't like being told how they should feel. Often, when a person is told not to worry they start to think they <b><em>should</em></b> worry.</p>
         </div>
@@ -263,17 +269,27 @@
   <a id="abtest">
     <p class="strong section">A/B Testing</p>
     <p>Localize.city's main KPI is user signups. To increase user adoption we offered suggestions for testing the primary account registration screen on desktop.</p>
-    <img src="images/localize/abtest.jpg" alt="Image of original version of registration screen with 2 options for testing.">
-    <p class="caption">A/B testing options</p>
-    <div class="row">
-      <div class="col-md-6">
+    <img src="images/localize/localizeAB1.jpg" class="center-image" style="max-width: 400px;"  alt="Image of original version of registration screen">
+    <p class="caption">Original screen</p>
+     <div id="vcent2" class="row section">
+        <div id="vcent3" class="col-lg-4">
+          <img src="images/localize/localizeAB2.jpg" class="ux" alt="image of first option for A/B testing">
+          <p class="caption">Option A</p>
+        </div>
+        <div class="col-lg-8">
         <p><strong>Option A:</strong></p>
           <p><strong>Mood:</strong> The user is non-committal.</p>
           <p><strong>Hypothesis:</strong> The user is not ready to give out their phone number.</p>
           <p><strong>Solution:</strong> Remove the phone number field and allow the user to sign up with just their email address.</p>
           <p><strong>Reasoning:</strong> Sharing an email address is less of a committment than sharing a phone number.</p>
+        </div>
       </div>
-      <div class="col-md-6">
+     <div id="vcent2" class="row section">
+        <div id="vcent3" class="col-lg-4">
+          <img src="images/localize/localizeAB3.jpg" class="ux" alt="image of second option for A/B testing">
+          <p class="caption">Option B</p>
+        </div>
+        <div class="col-md-8">
         <p><strong>Option B:</strong></p>
           <p><strong>Mood:</strong> The user is apprehensive.</p>
           <p><strong>Hypothesis:</strong> The user needs more context before they will decide to share their personal info.</p>
@@ -282,20 +298,16 @@
           <p><strong>Reasoning:</strong> The suggested copy gives context by explaining the value of signing up. Giving the option to omit the phone number also builds trust and puts the user in control of their data.</p>
       </div>
     </div>
+    <p>Check out the <a href="#tabs">research</a> we did before we started the content audit.</p>
+  </div>
 
   <!--CONCLUDION-->  
   <h2>CONCLUSION</h2>
   <p>Localize.city has a real opportunity to rise above the competition by providing trustworthy and unique insights into properties that aren't available elsewhere. We hope to have improved the user experience, especially during registration and onboarding, so that they see much higher rates of user adoption. The staff UX writer was pleased with our work and has promised to update us as results of copy testing become available. </p>
+  <p>Interested in working with me on your next project? <a href="index.html#contact">Let's get in touch!</a></p>
+  <p>Want more case studies? <a href="adp.html">Check out my ADP TotalSource redesign.</a></p>
 
           
-
-
-
-
-
-
-
- 
 
 </div>
 </div>
@@ -336,6 +348,7 @@ function topFunction() {
 }
 </script>
  
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
