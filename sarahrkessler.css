@@ -7,23 +7,31 @@ body{
 	font-size: larger;	
 }
 
+
+/**navbar brand**/
 #logo {
 	border: 0;
-	max-width: 12em;
+	max-width: 10em;
 	margin: 0;
 }
-
-/*.navbar{
-	width: 100%;
-	color: white;
-	margin: 0;
-	border: 0;
-	background-color: #181920;
-}*/
+#logo:hover{
+	opacity: 0.7;
+}
 
 
 
 
+/*social icon styles*/
+.contacts{
+	max-width: 50px;
+}
+.contacts:hover{
+	opacity: 0.7;
+}
+/*^social icon styles*/
+
+
+/****back to top button*****/
 #scrollup {
   display: none;
   position: fixed;
@@ -45,7 +53,10 @@ body{
   color: black;
 
 }
+/****end back to top button******/
 
+
+/*****HEADING STYLES******/
 h1{
 	padding-top: 6vh;
 	font-size: 4rem;
@@ -93,67 +104,22 @@ h3{
 	}
 }
 
-hr{
-	color: #afd1d3; 
-	background-color: #afd1d3;
-	margin-bottom:20px;
-	height: 2px;
-	width: 50%;
-}
+.heading{
+	text-align:center;
 
-@media screen and (min-width:768px) {
-    #hidden_desktop {
-        display:none;
-    }
-}
-@media screen and (max-width:767px) {
-    #hidden_mobile {
-        display:none;
-    }
-}
-
-#vcent{
-	display: inline-block;
-}
-
-#vcent2{
-	align-items: center;
-}
-
-#vcent3{
-	text-align: center;
-}
-
-.reviews{
-
-	margin-bottom:20px;
-}
-
-.star{
-	display: inline;
-	max-width:60px;
-
-}
-
-.country{
-	color: #696969;
-
-}
-
-.bold{
-	font-weight: bold;
 }
 
 .subheading{
 	font-size:1.5rem;
 	padding-bottom: 20px;
 }
+/*********END HEADING STYLES*******/
 
-#market{
-	box-shadow: 10px 10px 10px grey;
-	margin-bottom:40px;
-}
 
+
+
+
+/**** HERO SECTIONS FOR HOME AND CASE STUDIES *****/
 #hero{
 	background:
 	linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
@@ -203,7 +169,82 @@ hr{
     color: white;
 
 }
+/******END THE HERO SECTIONS******/
 
+
+
+hr{
+	color: #afd1d3; 
+	background-color: #afd1d3;
+	margin-bottom:20px;
+	height: 2px;
+	width: 50%;
+}
+
+
+/***for the Daily UX Writing page, displays 
+different image depending on screen size****/
+@media screen and (min-width:768px) {
+    #hidden_desktop {
+        display:none;
+    }
+}
+@media screen and (max-width:767px) {
+    #hidden_mobile {
+        display:none;
+    }
+}
+
+/**** vertical centering ****/
+#vcent{
+	display: inline-block;
+}
+
+#vcent2{
+	align-items: center;
+}
+
+#vcent3{
+	text-align: center;
+}
+/****** end vertical centering ****/
+
+
+
+
+/*Testimonials styling*/
+.reviews{
+
+	margin-bottom:20px;
+}
+
+.star{
+	display: inline;
+	max-width:60px;
+
+}
+
+.country{
+	color: #696969;
+
+}
+/****End Testimonials styling***/
+
+
+
+.bold{
+	font-weight: bold;
+}
+
+
+
+#market{
+	box-shadow: 10px 10px 10px grey;
+	margin-bottom:40px;
+}
+
+
+/****404 Page styles****/
 #oops{
     text-align: center;
     text-align: center;
@@ -213,12 +254,26 @@ hr{
     margin-top: 5rem;
 }
 
+a.woops:hover{
+	color: white;
+}
+a.woops{
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-top: 100px;
+	font-weight: 400;
+	color: #afd1d3;
+
+}
+/****end 404 page styles****/
+
+
+/***divider birds***/
 .divider {
 	border: 0;
 	margin: 0;
 
 }
-
 .divider2{
 	border: 0;
 	display: block;
@@ -228,7 +283,7 @@ hr{
 
 }
 
-
+/****Image styling for different bird icons, used on multiple pages *****/
 .icons{
 	border: 0;
 	max-width:15em;
@@ -245,6 +300,9 @@ hr{
 	padding-bottom: 20px;
 }
 
+
+
+
 .tab-content{
 	padding-top: 1em;
 	text-align: left;
@@ -259,17 +317,7 @@ a:hover{
 	text-decoration: none;
 }
 
-a.woops:hover{
-	color: white;
-}
-a.woops{
-	padding-left: 3%;
-	padding-right: 3%;
-	margin-top: 100px;
-	font-weight: 400;
-	color: #afd1d3;
 
-}
 
 .btn-custom{
 	background-color: #afd1d3;
@@ -281,6 +329,7 @@ a.btn-custom:hover{
 	background-color: #64b6bb;
 }
 
+/*****FOOTER NAV*******/
 #footer{
 	background-color: #afd1d3;
 	min-height: 120px;
@@ -306,7 +355,6 @@ a.footer-link:hover{
 
 }
 
-
 .strong{
 	font-size: x-large;
 	font-weight: 700;
@@ -320,12 +368,10 @@ a.footer-link:hover{
 	text-align: center;
 	font-size: small;
 }
+/*******END FOOTER NAV*********/
 
 
-.heading{
-	text-align:center;
 
-}
 
 img{
 	text-align:center;
